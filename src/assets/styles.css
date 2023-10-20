@@ -1,0 +1,85 @@
+/* Colors
+
+pageBg : #0d1321
+text-color : #fff
+button-hover-bg: #748CAB
+button-hover-color: #0d1321
+
+
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* NAVBAR
+*****************************/
+nav {
+	border-bottom: 3px solid #fff;
+}
+.nav-list {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-list li {
+	padding: 20px 50px;
+}
+.nav-list li:hover {
+	background-color: #748cab;
+}
+.nav-list li a {
+	color: #fff;
+	font-size: 2rem;
+}
+.nav-list li:hover a {
+	color: #0d1321;
+}
+
+/* ArticlePage section
+*******************************/
+.article-container {
+	margin: auto;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+h1 {
+	font-size: 3.5rem;
+	padding-top: 40px;
+	text-transform: capitalize;
+}
+p {
+	font-size: 2rem;
+	padding-top: 20px;
+	text-align: justify;
+}
+
+/* ArticleList Page
+************************ */
+.title-container {
+	text-align: start;
+}
+.article-list-container {
+	width: 50%;
+	margin: auto;
+}
+.article-list-content {
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+.article-list-content h2 {
+	font-size: 2.6rem;
+	text-transform: capitalize;
+}
+.article-list-content h2,
+p {
+	text-align: start;
+	padding-bottom: 0;
+	color: #fff;
+}
